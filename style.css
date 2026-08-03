@@ -1,0 +1,66 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2efe9;
+  color: #1a1815;
+  /* background-image: radial-gradient(#d3cbbe 1px, transparent 1px);
+  background-size: 20px 20px; */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid green; 
+  padding-bottom: 4px;      
+  background-color: black;       
+}
+.navbar .logo {
+  padding: 15px;
+  font-weight: bold;
+  font-size: larger;
+}
+.navbar .nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .nav-links li {
+  align-items: center;
+  padding: 15px;
+  list-style-type: none;
+}
+.navbar .nav-links li a{
+  text-decoration: none;
+  color: black;
+}
+
+.image-button {
+  /* Set the path to your image */
+  background-image: url('button.png');
+  
+  /* Scale the image to fill the button completely */
+  background-size: contain;
+  
+  /* Center the image within the button area */
+  background-position: center;
+  
+  /* Prevent the image from tiling */
+  background-repeat: no-repeat;
+  
+  /* Remove default browser button styling */
+  border: none;
+  background-color: transparent;
+  
+  /* Define the clickable area dimensions */
+  width: 120px;
+  height: 40px;
+  
+  /* Text styling for readability */
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  cursor: pointer;
+}
