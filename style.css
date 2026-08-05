@@ -10,17 +10,17 @@ body {
   color: #1a1815;
   /* background-image: radial-gradient(#d3cbbe 1px, transparent 1px);
   background-size: 20px 20px; */
+  height: 100vmax;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  border-bottom: 2px solid green; 
-  padding-bottom: 4px;      
-  background-color: black;       
+  background-color: #2b292a;       
+  color: white;
 }
 .navbar .logo {
-  padding: 15px;
+  padding: 10px;
   font-weight: bold;
   font-size: larger;
 }
@@ -30,12 +30,12 @@ body {
 }
 .navbar .nav-links li {
   align-items: center;
-  padding: 15px;
+  padding: 10px;
   list-style-type: none;
 }
 .navbar .nav-links li a{
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .image-button {
@@ -63,4 +63,27 @@ body {
   color: rgb(255, 255, 255);
   font-weight: bold;
   cursor: pointer;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 80vh;
+}
+.hero .mypic-se{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .mypic-se .mypic img{
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+.hero .myquote {
+  background-color: aliceblue;
+  color: black;
+  /* border-radius:0px 50px 50px 0px;
+  border: 1px solid black; */
 }
