@@ -18,11 +18,15 @@ body {
   justify-content: space-between;
   background-color: #2b292a;       
   color: white;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-.navbar .logo {
-  padding: 10px;
+.hero .logo {
+  background-color: #2b292a;   
   font-weight: bold;
-  font-size: larger;
+  color: #f2efe9;
+  font-size: xx-large;
+  margin: auto;
 }
 .navbar .nav-links {
   display: flex;
@@ -30,7 +34,7 @@ body {
 }
 .navbar .nav-links li {
   align-items: center;
-  padding: 10px;
+  padding: 20px;
   list-style-type: none;
 }
 .navbar .nav-links li a{
@@ -75,9 +79,9 @@ body {
   align-items: center;
 }
 .hero .mypic-se .mypic img{
-  width: 150px;
-  height: 150px;
-  border-radius: 100px;
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
   border: 2px solid #2b292a;
 }
 .hero .myquote {
